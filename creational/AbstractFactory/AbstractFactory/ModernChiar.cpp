@@ -17,17 +17,12 @@ void ModernChiar::setId(int id)
   _id = id;
 }
 
+int ModernChiar::getId()
+{
+  return _id;
+}
+
 void ModernChiar::setPrice(float price)
 {
   _price = price;
-}
-
-std::string ModernChiar::getReviewFromClients()
-{
-  return "So good ! I am happy";
-}
-
-std::string ModernChiar::getWarrantyCertificate()
-{
-  return "1 years warranty";
 }

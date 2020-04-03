@@ -1,11 +1,10 @@
 #pragma once
 #include "IFurnitureFactory.h"
 #include "ModernChiar.h"
-#include "SimpleChiar.h"
 
 #include <vector>
 
-class Ikea : IFurnitureFactory
+class Ikea : public IFurnitureFactory
 {
 public:
 
@@ -16,5 +15,7 @@ public:
   void createTable();
 
 private:
-  std::vector<IChiar*> _chairs;
+  void displayChairs();
+
+  std::vector<IChiarPtr> _chairs;
 };

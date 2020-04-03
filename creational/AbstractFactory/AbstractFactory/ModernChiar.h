@@ -6,11 +6,11 @@ public:
   bool hasLegs();
 
   float getPrice();
-  void setId(int id);
-  void setPrice(float price);
 
-  std::string getReviewFromClients();
-  std::string getWarrantyCertificate();
+  void setId(int id);
+  int getId();
+
+  void setPrice(float price);
 
 private:
   int _id = 0;

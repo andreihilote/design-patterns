@@ -12,17 +12,17 @@ float SimpleChiar::getPrice()
   return 30.0f;
 }
 
+int SimpleChiar::getId()
+{
+  return _id;
+}
+
+void SimpleChiar::setId(int id)
+{
+  _id = id;
+}
+
 void SimpleChiar::setPrice(float price)
 {
   _price = price;
-}
-
-std::string SimpleChiar::getReviewFromClients()
-{
-  return "It's pretty uncomfortable";
-}
-
-std::string SimpleChiar::getWarrantyCertificate()
-{
-  return "2 years warranty";
 }

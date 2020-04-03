@@ -4,17 +4,17 @@
 
 #include <iostream>
 
-void MobExpert::createChair()
+void MobExpert::createChair(int count)
 {
-  std::cout << "Chair from MobExpert";
+  std::cout << "Chair from MobExpert, empty stock" << std::endl;
 }
 
 void MobExpert::createSofa()
 {
-  std::cout << "Sofa from MobExpert";
+  std::cout << "Sofa from MobExpert, empty stock" << std::endl;
 }
 
 void MobExpert::createTable()
 {
-  std::cout << "Table from MobExpert";
+  std::cout << "Table from MobExpert, empty stock" << std::endl;
 }

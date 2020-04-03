@@ -1,10 +1,10 @@
 #pragma once
 #include "IFurnitureFactory.h"
 
-class MobExpert : IFurnitureFactory
+class MobExpert : public IFurnitureFactory
 {
 public:
-  void createChair();
+  void createChair(int count);
 
   void createSofa();
 
